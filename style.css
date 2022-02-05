@@ -6,12 +6,12 @@ html, body
 
 body
 {
-background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73aa, #006494);
+background-image: linear-gradient(to right top, #bbb3b3, #a5a9ac, #9c9fa0, #878a8b, #8c8d8d);
 }
 
 .header
 {
-	color: white;font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
+	color: rgb(7, 7, 7);font-size: 45px;letter-spacing: 10px;margin-top: 80px;
 }
 .header img
 {
@@ -30,7 +30,8 @@ background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73
 
 #login_button
 {
-	width: 80%;border-radius: 15px;
+	width: 300px;
+	margin: 10px;
 }
 
 .room_name
@@ -91,4 +92,37 @@ background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73
 .message_h4
 {
 	padding-left:5px;color:grey;
+}
+#div1 {
+	background-color: rgba(255, 255, 255, 0.541);
+	width: 1200px;
+	height: 590px;
+	margin: 30px;
+}
+#img {
+   width: 100px;
+   height: 100px;
+
+}
+#img1 {
+	width: 100px;
+	height: 100px;
+ margin-top: 50px;
+ }
+#d1 {
+	background-color: rgb(89, 79, 179);
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+#d2 {
+	background-color: rgb(255, 255, 255);
+	width: 50%;
+	height: 100%;
+	float:right;
+}
+#user_name {
+width: 300px;
+margin: 30px;
+margin-left: 10px;
 }
